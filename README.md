@@ -4,7 +4,7 @@ Tic Tac Toe Tech Test in Ruby.
 
 ### Technologies:
 - Ruby (version 2.4.0)
-- RSpec (version 3.6)
+- RSpec (version 3.6.0)
 
 ### Key requirements:
 - There are two plays in the game (X and 0)

@@ -1,4 +1,4 @@
-# Tic Tac Toe Tech Test!
+# Tic Tac Toe Tech Test
 
 Tic Tac Toe Tech Test in Ruby.
 

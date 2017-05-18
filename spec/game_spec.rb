@@ -10,7 +10,7 @@ describe Game do
   describe "#initialize" do
   it "so I can have an opponent, initialize game with two players" do
     expect(game.player1).to eq "Connie"
-    expect(game.player2).to eq "Aloha"
+    expect(game.player2).to eq "May"
       end
     end
 

@@ -13,8 +13,8 @@ class Game
     @player2 = Player2.new()
   end
 
-  def start_game
-    grid = Grid.new
+  def start_game()
+    grid = Grid.new()
   end
 
 end

@@ -18,8 +18,8 @@ describe Claim do
   end
 
   describe "#field_available" do
-    it "so that a player can claim a field, check that field is available" do
-      expect(claim.field_available?(2)).to eq true
+    it "so that a player can claim a field that is not already taken, check that field is available" do
+      expect(claim.field_available?).to eq true
     end
   end
 end

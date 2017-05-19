@@ -2,19 +2,19 @@
 
 class Claim
 
-  attr_reader :fields, :number
+  attr_reader :number
 
   def initialize(number)
-    @fields = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     @number = number
+    @numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   end
 
-  def block_field(number)
-    @fields[number] = "X"
+  def block_number
+    @numbers[@number] = "B" if field_available?
   end
 
-  def field_available?(number)
-    @fields.include?(number)
+  def field_available?
+    @numbers.include?(@number)
   end
 
 end

@@ -1,3 +1,4 @@
 require './lib/game'
 game = Game.new("Connie", "May")
-game.start_game
+grid = game.start_game
+claim = grid.new_claim(1)

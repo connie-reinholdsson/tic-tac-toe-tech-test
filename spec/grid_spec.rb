@@ -3,6 +3,7 @@ require 'grid'
 describe Grid do
 
   subject(:grid) { described_class.new() }
+  let(:claim) { double(:claim )}
 
   describe "#initialize" do
     it "so that players can claim fields, initialize with a grid" do

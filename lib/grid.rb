@@ -4,9 +4,7 @@ require_relative 'claim'
 
 class Grid
 
-  attr_reader :fields
-
-  attr_reader :turn
+  attr_reader :fields, :turn
 
   def initialize()
     @fields = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
